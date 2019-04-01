@@ -27,7 +27,7 @@ class TaskTests: XCTestCase {
     }
     
     func testValidFailure() {
-        let testFailure = "b"
+        let testFailure = "bharath"
         XCTAssertTrue(testFailure.isValidEmail())
     }
 }
